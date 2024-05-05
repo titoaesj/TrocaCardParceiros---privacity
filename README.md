@@ -1,0 +1,1 @@
+# TrocaCardParceiros---privacity
