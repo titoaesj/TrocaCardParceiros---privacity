@@ -1,1 +1,3 @@
-# TrocaCardParceiros---privacity
+# TrocaCardSite
+- Política de privacidade
+- Suporte
