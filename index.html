@@ -1,72 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Troca Card Empresas - Política de Privacidade</title>
+    <!-- Link para os ícones do Google Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
             line-height: 1.6;
+            text-align: center;
         }
-        h1, h2 {
+
+        h1,
+        h2 {
             color: #3C434C;
         }
+
         p {
             margin-bottom: 10px;
         }
+
         ul {
-            margin-top: 5px;
-            padding-left: 20px;
+            margin: auto;
+            text-align: center;
+            justify-items: center;
         }
+
         .logo {
             text-align: center;
             margin-bottom: 100px;
         }
-        .logo img {
-    max-width: 100%;  /* A imagem não ficará maior que o tamanho do contêiner */
-    height: auto;     /* A altura será ajustada proporcionalmente */
-}
 
+        .logo img {
+            max-width: 100%;
+            /* A imagem não ficará maior que o tamanho do contêiner */
+            height: auto;
+            /* A altura será ajustada proporcionalmente */
+        }
+
+        /* Estilos do menu vertical */
+        nav {
+            width: 100%;
+            background-color: #333;
+            height: 100vh;
+            position: fixed;
+            top: 100;
+            left: 0;
+            padding-top: 20px;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            font-size: 18px;
+            margin: 10px 0;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        nav a .material-icons {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        /* Estilos do rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
     </style>
 </head>
+
 <body>
 
-<div class="logo">
-    <img src="./logo.svg" alt="Logo Troca Card Empresas">
-</div>
+    <div class="logo">
+        <img src="./logo.svg" alt="Logo Troca Card Empresas">
+    </div>
 
-<h1>Política de Privacidade</h1>
-<p><strong>Última atualização:</strong> 04/03/2025</p>
-<p><strong>Versão:</strong> 1.0.0</p>
+    <nav>
+        <a href="./privacy_policy.html">
+            <span class="material-icons">lock</span> Política de Privacidade
+        </a>
+        <a href="./suporte.html">
+            <span class="material-icons">support_agent</span> Suporte
+        </a>
+    </nav>
 
-<p>Esta Política de Privacidade se aplica ao aplicativo <strong>Troca Card Empresas</strong>, desenvolvido por <strong>Tito Albino Evangelista da Silva Junior</strong>.</p>
-
-<h2>Coleta e Uso de Informações</h2>
-<p>O aplicativo coleta informações em conformidade com a <strong>Lei Geral de Proteção de Dados (LGPD)</strong>. Os dados coletados incluem:</p>
-<ul>
-    <li>Nome completo</li>
-    <li>E-mail</li>
-</ul>
-<p>Essas informações são utilizadas para fornecer os serviços oferecidos pelo aplicativo e para atender a exigências legais.</p>
-
-<h2>Direitos dos Usuários</h2>
-<p>De acordo com a LGPD, você possui os seguintes direitos:</p>
-<ul>
-    <li>Acessar seus dados pessoais</li>
-    <li>Corrigir dados incompletos ou incorretos</li>
-    <li>Solicitar a exclusão de seus dados pessoais</li>
-    <li>Solicitar a portabilidade de seus dados</li>
-    <li>Revogar seu consentimento a qualquer momento</li>
-</ul>
-<p>Para exercer seus direitos, entre em contato pelo e-mail: <strong>trocacard.suporte@gmail.com</strong>.</p>
-
-<h2>Segurança dos Dados</h2>
-<p>O provedor de serviço <strong>Google Firebase</strong> adota medidas técnicas e organizacionais para proteger seus dados pessoais. No entanto, é importante destacar que nenhum sistema de armazenamento ou transmissão de dados é completamente seguro.</p>
-
-<h2>Alterações nesta Política</h2>
-<p>Esta Política de Privacidade pode ser atualizada a qualquer momento. Recomendamos que você a revise periodicamente.</p>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; Troca Card 2025 All Rights Deserved</p>
+    </footer>
 
 </body>
+
 </html>
